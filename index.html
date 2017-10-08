@@ -1,9 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <script async defer src='https://unpkg.com/cryptocurrency-data@0.0.3/dist/cryptocurrencydata.js'></script>
 <head><title>Coin Tracker</title></head>
 <meta http-equiv="refresh" content="300"> 
 <h1 style="font-family:verdana;font-size:140%;">Coin Tracker</h1>
-
+<body>
+ <center>
+Bitcoin price is <cryptocurrency-data coin="BTC" show="USD"></cryptocurrency-data> (<cryptocurrency-data coin="BTC" show="EUR"></cryptocurrency-data>). Change last 24 hours. <cryptocurrency-data coin="BTC" show="24h"></cryptocurrency-data>
+<br>
+Litecoin price is <cryptocurrency-data coin="LTC" show="USD"></cryptocurrency-data> (<cryptocurrency-data coin="LTC" show="EUR"></cryptocurrency-data>). Change last 24 hours. <cryptocurrency-data coin="LTC" show="24h"></cryptocurrency-data>
+<br>
+Monero price is <cryptocurrency-data coin="XMR" show="USD"></cryptocurrency-data> (<cryptocurrency-data coin="XMR" show="EUR"></cryptocurrency-data>). Change last 24 hours. <cryptocurrency-data coin="XMR" show="24h"></cryptocurrency-data>
+<br>
+Bitcoin Cash price is <cryptocurrency-data coin="BCH" show="USD"></cryptocurrency-data> (<cryptocurrency-data coin="BCH" show="EUR"></cryptocurrency-data>). Change last 24 hours. <cryptocurrency-data coin="BCH" show="24h"></cryptocurrency-data>
+</center> 
 <table style="width:100%">
-
 <tr>
  <td>
   <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
@@ -22,3 +33,5 @@
 </tr>
 
 </table> 
+</body>
+</html>
