@@ -5,7 +5,8 @@
  <center><title>Crypto Watch</title><center>
  </head>
 <meta http-equiv="refresh" content="300"> 
-<h1 style="font-family:verdana;font-size:140%;"><iframe src="http://free.timeanddate.com/clock/i416b6h1/n660/tluk/fn8/fs12/tct/pct/tt0/td1/th1/ta1/tb2" frameborder="0" width="289" height="17" allowTransparency="true"></iframe> </h1>
+<h1 style="font-family:verdana;font-size:140%;">Crypto Watch</h1>
+  <iframe src="http://free.timeanddate.com/clock/i416b6h1/n660/tluk/fn8/fs12/tct/pct/tt0/td1/th1/ta1/tb2" frameborder="0" width="289" height="17" allowTransparency="true"></iframe> 
 <body>
  <center>
 Bitcoin BTC <cryptocurrency-data coin="BTC" show="USD"></cryptocurrency-data> / <cryptocurrency-data coin="BTC" show="EUR"></cryptocurrency-data>. Change 1 hour: <cryptocurrency-data coin="BTC" show="1h"></cryptocurrency-data> 24 hours: <cryptocurrency-data coin="BTC" show="24h"></cryptocurrency-data> 7 days: <cryptocurrency-data coin="BTC" show="7d"></cryptocurrency-data>
@@ -26,18 +27,31 @@ Bitcoin Cash BCH <cryptocurrency-data coin="BCH" show="USD"></cryptocurrency-dat
  <td> 
   <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
   <div class="coinmarketcap-currency-widget" data-currency="potcoin" data-base="BTC"  data-secondary="EUR"></div>
- </td>
+ </td>      
 
  <td> 
   <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
   <div class="coinmarketcap-currency-widget" data-currency="netcoin" data-base="BTC"  data-secondary="EUR"></div>
  </td>
 </tr>
+ 
+ <tr>
+ <td>
+   <iframe id='widget-ticker-preview' src='//www.coingecko.com/en/widget_component/ticker/bitcoin/btc?id=bitcoin' style='border:none; height:125px; width: 275px;' scrolling='no' frameborder='0' allowTransparency='true'></iframe>
+ </td>
+
+ <td> 
+   <iframe id='widget-ticker-preview' src='//www.coingecko.com/en/widget_component/ticker/potcoin/btc?id=potcoin' style='border:none; height:125px; width: 275px;' scrolling='no' frameborder='0' allowTransparency='true'></iframe>
+ </td>      
+
+ <td> 
+   <iframe id='widget-ticker-preview' src='//www.coingecko.com/en/widget_component/ticker/netcoin/btc?id=netcoin' style='border:none; height:125px; width: 275px;' scrolling='no' frameborder='0' allowTransparency='true'></iframe>
+ </td>
+</tr>
 
 </table> 
- <script type="text/javascript">
-crypt_single_base_currency = "Bitcoin (BTC)";crypt_single_target_currency = "Potcoin (POT)";</script><script type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/single_widget.js"></script>
- <iframe id='widget-ticker-preview' src='//www.coingecko.com/en/widget_component/ticker/potcoin/btc?id=potcoin' style='border:none; height:125px; width: 275px;' scrolling='no' frameborder='0' allowTransparency='true'></iframe>
+ 
+ 
   <script type="text/javascript">
 crypt_calc_font_family = "Verdana";crypt_calc_font_size = "small";</script><script type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/calc_widget.js"></script>
 <script type="text/javascript">
